@@ -1,0 +1,12 @@
+Front-End: aquilo que o usuário olha
+*Colocar acessibilidade nos sites*
+
+Site "Can i use" = site que mostra as tags que falham ou não nos navegadores
+
+index = Como se fosse o sumário da página
+
+
+!DOCKTYPE html = Avisando a página que o arquivo é HTML
+head = Contém metadados sobre a página, como titulo
+body = Abriga todo o conteúdo visível da página, incluindo textos, imagens, links, etc.
+html = O elemento raiz que engloba todo o conteúdo da página HTML 
