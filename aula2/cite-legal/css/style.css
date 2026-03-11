@@ -1,0 +1,47 @@
+@font-face{
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face{
+    font-family: bloodlust;
+    src: url('../fonts/bloodlust.ttf');
+}
+
+body{
+    background-color: gray;
+}
+
+.assustador{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.medo{
+    position: absolute;
+    top: 32%;
+    left: 70%;
+}
+
+h1{
+    text-align: center;
+    font-family: bloodlust;
+    text-shadow: 10px 15px 5px black;
+    font-size: 100px    ;
+    color: #FF0000;
+}
+
+p{
+    font-family: bloodlust;
+    text-shadow: 10px 20px 5px black;
+    text-align: center;
+    color: lightgreen;
+    font-size: 65px;
+}
+
+.imagem-foda{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+}
