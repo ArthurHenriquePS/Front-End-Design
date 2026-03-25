@@ -23,3 +23,12 @@ Aula 3
 alt + "setinha" = navega com a linha entre as páginas
 rel="noopener" = usado para não redirecionar apra a nossa página
 target="_blank"= Usado para abrir a página em outra guia
+
+***********************************
+Aula 4
+<nav> = agrupar uma seção de links de navegação
+<aside> = usada para criar uma seção em uma página web com conteúdo não necessariamente relacionado com o principal
+<section> = utilizada para marcar as seções de conteúdo de uma página
+scr = caminho de origem de onde está vindo (trabalho de arquivos/imagens de site)
+href =  '' /Questão de segurança (trabalho de links)
+alt + shift + f = Usado para usar o Prettier
