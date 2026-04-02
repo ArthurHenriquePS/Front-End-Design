@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'NiceSegaSonic';
+    src: url('../font/NiseSegaSonic.TTF') format('truetype');
+}
+
+montserrat-<uniquifier> {
+  font-style: normal;
+}
+
+body{
+    background-image: url("../img/shadow-the-hedgehog.jpg");
+    background-size: cover;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    color: white;
+    text-shadow: 1px 1px 2px blue;
+    margin: 0px;
+    padding: 0px;
+
+}
+html, body{
+    heigth: 100%;
+}
+.titulo{
+    margin: 0px;
+    padding: 10px;
+    padding-left: 350px;
+    font-family: "NiceSegaSonic";
+    font-size: 50px;
+    color: black;
+    background-image: linear-gradient(to right, #000000,rgb(206, 3, 3));
+    text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em blue;   
+}
+.subTitulo{
+    margin: 0px;
+    padding: 10px;
+    text-align: start;
+    font-family: "NiceSegaSonic";
+    font-size: 15px;
+    color: black;
+    text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em blue;   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    margin-left: 250px;
+    padding: 20px;
+}
+aside{
+    position: fixed;
+    left: 0px;
+    top: 0;
+    width: 200px;
+    heigth: 1002vh;
+    background-color:rgb(4, 1, 19);
+    padding: 0px 0px 90% 20px;
+}
+nav{
+    margin-left: 250px;
+    padding: 20px;
+}
+.assidePosition{
+    position: absolute;
+    top: -1px;
+}
+.imagemShadow{
+    heigth:100px;
+    width:180px;
+}
+.footer{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px red;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
