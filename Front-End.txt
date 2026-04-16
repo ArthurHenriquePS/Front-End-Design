@@ -32,3 +32,38 @@ Aula 4
 scr = caminho de origem de onde está vindo (trabalho de arquivos/imagens de site)
 href =  '' /Questão de segurança (trabalho de links)
 alt + shift + f = Usado para usar o Prettier
+
+
+***********************************
+Aula 6 
+
+Label: Descreve o campo ao usuário e melhora a acessibilidade
+Input: Campo onde o usuário digita ou seleciona os dados
+fr + id: Conecta o label ao input correspondente
+
+TYPES
+text = Campo de texto livre
+email = Valida formato de e-mail automaticamente
+password = censura o que está escrito
+number = Aceita apenas valores númericos
+radio = Seleciona uma opção entre várias
+checkbox = Marca uma ou mais 
+date = Exibe o seletor de datas
+file = permite envio de arquivos
+
+TYPE TEXT 
+maxlegth = Limita o número máximo de caracteres
+minlegth = Exige um número mínimo de caracteres
+required = Torna o campo obrigatório
+value = Define um valor padrão já preenchido no campo
+placeholder = Texto exibido na label para o usuário
+
+TYPE E-MAIL
+Valida automaticamente se o valor digitado possui o formato correto de e-mail
+
+<select> = Cria uma lista suspensa (dropdown) com opções predefinidas. Ideal quando há muitas opções para exibir como radio buttons
+<option> = Usada para cada opção das selects
+
+<textarea> = Cria um campo de texto multilinha, perfeito para mensagens longas, comentários e descrição que não cabem em um <input type="text">
+rows = tamanho de linhas
+cols = tamanho de colunas
