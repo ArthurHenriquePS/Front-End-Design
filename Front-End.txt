@@ -67,3 +67,30 @@ Valida automaticamente se o valor digitado possui o formato correto de e-mail
 <textarea> = Cria um campo de texto multilinha, perfeito para mensagens longas, comentários e descrição que não cabem em um <input type="text">
 rows = tamanho de linhas
 cols = tamanho de colunas
+
+*********************************
+Aula 7
+
+CSS = Cascading Style Sheets
+
+tag = todos os elementos iguais
+.classe = grupos de elementos
+#id = um elemento único
+
+TAGS
+color = Cor do texto
+background-color = Cor de fundo
+font-family = Tipo
+font-size = Tamanho do texto
+text-align = Alinhamento de texto
+
+ESPAÇAMENTO
+padding = Espaço de dentro da caixa - entre o conteúdo e a borda
+margin = Espaço de fora da caixa - entre o elemento e os vizinhos
+
+BORDAS
+border: "expessura" "estilo(sólida)" "cor";
+border-radius = Arredondar a vértice da forma (50% = círculo perfeito)
+
+INTERAÇÃO COM :HOVER
+:hover = pseudo-classe que aplica estilos quando o usuário passa o mouse sobre um elemento

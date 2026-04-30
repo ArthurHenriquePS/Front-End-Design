@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Babydoo'; /* Nome amigável para identificar a fonte */
+    src: url('../fonts/Babydoo.woff2fonts/') format('woff2'),
+         url('../fonts/Babydoo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}   
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bae6ff;
+    font-family:   Babydoo;
+}
+header {
+    display: flex;
+    align-items: center; /* alinha verticalmente */
+    justify-content: center; /* centraliza horizontalmente */
+    gap: 10px; /* espaço entre a imagem e o título */
+    
+}
+footer{
+    background-color: #1fa4ff;
+    text-align: center;
+}
+h1, h2{
+    color: #1fa4ff;
+    text-shadow: 1px 1px 2px black;
+    padding: 10px 0px 0px 0px;
+}
+p{
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+    padding: 2px; 
+}
+ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding-left: 0;       /* Remove o recuo à esquerda */
+}
+li{
+    color: black;
+    text-shadow: 1px 1px 2px #bae6ff;
+    padding: 3px;
+    margin: 10px 0px 0px 20px;
+}
+button{
+    margin: 5px 0px 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Babydoo;
+    background-color: #bae6ff;
+    color: white;
+    font-size: 20px;
+    padding: 3px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+    transition: color 1.0s;
+}
+button:hover{
+    background-color: #1fa4ff;
+    color: black;
+}
+main{
+    width: 80%;
+    margin: 30px auto;
+}
+.foto-titulo{
+    width: 50px;
+    height: 50px;
+    
+}
+.titulo, .texto-titulo{
+    text-align: center;
+}
+.video{
+    width: 30%;
+    heigth: 15%;
+    margin: 5px 0px 0px 15px;
+    border-radius: 5%; 
+    border: 2px solid rgb(6, 77, 136);  
+}
+#video-titulo{
+    font-size: 30px;
+    color:#c92fdb;
+}
+.card{
+    background-color:rgb(111, 191, 245);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border: 1px solid;
+}
