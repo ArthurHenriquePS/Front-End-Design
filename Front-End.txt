@@ -94,3 +94,10 @@ border-radius = Arredondar a vértice da forma (50% = círculo perfeito)
 
 INTERAÇÃO COM :HOVER
 :hover = pseudo-classe que aplica estilos quando o usuário passa o mouse sobre um elemento
+****************************************************
+Aula 8 
+article = conteúdo independente
+CONTAINER = Como se fosse uma prateleira para guardar as caixas (tags)
+BOX-MODEL = é a forma do como o CSS entende e calcula o espaço ocupado por cada elemento na tela
+dotted = pontilhada
+dashed = pontilhada maior

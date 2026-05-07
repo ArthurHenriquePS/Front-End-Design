@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'BebasNeue-Regular'; /* Nome amigável para identificar a fonte */
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'BECKETT'; /* Nome amigável para identificar a fonte */
+    src: url('../fonts/BECKETT_.TTF') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "BebasNeue-Regular";
+    font-size: 20px;
+}
+body{
+    background-color: #000000;
+    color: #798dae;
+}
+.cabecalho{
+    padding: 40px;
+}
+.cabecalho h1{
+    margin-bottom: 10px;
+}
+.titulo{
+    text-align: center;
+    font-family: "BECKETT";
+    font-size: 50px;
+    color: #798dae;
+    font-weight: 100;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.027);
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    border-radius: 12px;
+}
+.bloco{
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+.bloco h2{
+    margin-bottom: 12px;
+}
+.bloco p{
+    line-height: 1.5;
+}
+.card{
+    background-color: rgba(15, 15, 15, 0.185);
+    margin-top: 16px;
+    padding: 16px;
+    border-left: 1px solid gray;
+    border-radius: 10px;
+}
+/* Centraliza o texto  */
+.bloco h2,
+.bloco p,
+.card h3,
+.card p {
+    text-align: center;
+    cursor: pointer;
+}
+
+/* span segura o texto */
+.bloco h2 span,
+.bloco p span,
+.card h3 span,
+.card p span {
+    position: relative;
+    display: inline-block;
+}
+
+/* Imagem invisível por padrão */
+.bloco h2 span::before,
+.bloco p span::before,
+.card h3 span::before,
+.card p span::before {
+    content: "";
+    position: absolute;
+
+    right: 100%;
+    margin-right: 10px;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 20px;
+    height: 20px;
+
+    background-image: url('../img/icone_menu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+/* Aparece no hover */
+.bloco h2:hover span::before,
+.bloco p:hover span::before,
+.card h3:hover span::before,
+.card p:hover span::before {
+    opacity: 1;
+}
+
+.destaque{
+    border: 1px solid #79797928;
+}
+.rodape{
+    background-color: #22222225;
+    text-align: center;
+    padding: 20px;
+}
+/* .caixa{
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid lightgreen;
+    margin: 30px;
+} */
