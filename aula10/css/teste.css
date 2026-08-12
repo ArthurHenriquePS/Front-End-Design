@@ -1,0 +1,31 @@
+/* O display flex é aplicado no container e é possível controlar todo
+   o conteúdo de dentro do container*/
+/* flex-start: deixa tudo na esquerda
+   flex-end: deixa tudo na direita
+   space-between: Pega o espaço disponível de container e distribui
+   o espaço entre os elementos dentro dele automaticamente
+   space-around: 
+   space-evenly: coloca o mesmo espaçamento entre os elementos
+   flex-direction: column = Define os objetos como colunas
+   flex-direction: row= Define os objetos como linhas 
+   aling-itens: center = Deixa os objetos alinhados no centro*/
+.container {
+    display: flex;
+    border: 2px solid #000;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.box {
+    border: 1px solid #ff0000;
+    padding: 25px;
+    height: 30px;
+    width: 30px;
+
+    display: flex;
+    /* Alinha Horizontalmente */
+    justify-content: center;
+    /* Alinha Verticalmente */
+    align-items: center;
+}
